@@ -1,9 +1,9 @@
 ﻿namespace Shape.Enum
 {
-    public enum EnShapes
+    public enum EnShapes : byte
     {
-        Square,
-        Traiangle,
-        Circle,
+        Square=3 ,
+        Traiangle=2,
+        Circle=1,
     }
 }
